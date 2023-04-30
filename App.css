@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}

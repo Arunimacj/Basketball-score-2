@@ -1,0 +1,31 @@
+.board {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 80px 300px;
+  justify-content: center;
+  background-color: grey;
+
+  column-gap: 15px;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.main {
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+  text-align: center;
+}
+.display {
+  text-align: center;
+  border-radius: 10px;
+  /* height and width not specified */
+  margin: 40px 65px;
+  background-color: black;
+  color: tomato;
+  padding: 25px;
+}
+
+.demo {
+  margin: auto;
+  font-size: 60px;
+}
